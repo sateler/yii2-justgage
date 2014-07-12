@@ -1,0 +1,18 @@
+{
+    "name": "simonmesmith/yii2-justgage",
+    "description": "A wrapper for the JustGage charting extension.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","chart","gage","gauge"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Simon Smith",
+            "email": "simon@simonsmith.ca"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "simonmesmith\\justgage\\": ""
+        }
+    }
+}
