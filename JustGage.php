@@ -14,6 +14,7 @@ namespace simonmesmith\justgage;
 use Yii;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
+use yii\helpers\Json;
 use yii\web\View;
 use yii\web\JsExpression;
 
