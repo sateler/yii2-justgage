@@ -2,6 +2,8 @@ Yii2 JustGage
 =============
 A wrapper for the JustGage charting extension.
 
+Special thanks to Milo Schuman, whose Yii2 Highcharts code (https://github.com/miloschuman/yii2-highcharts-widget) provided the guidance and foundation for this extension.
+
 Installation
 ------------
 
@@ -29,8 +31,3 @@ Once the extension is installed, simply use it in your code by  :
 
 ```php
 <?= \simonmesmith\justgage\JustGage::widget(); ?>```
-
-Acknowledgement
----------------
-
-Special thanks to Milo Schuman, whose Yii2 Highcharts code (https://github.com/miloschuman/yii2-highcharts-widget) provided the guidance and foundation for this extension.
