@@ -1,5 +1,5 @@
 {
-    "name": "simonmesmith/yii2-justgage",
+    "name": "sateler/yii2-justgage",
     "description": "A wrapper for the JustGage charting extension.",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","chart","gage","gauge"],
@@ -12,11 +12,12 @@
     ],
     "require": {
         "php": ">=5.4.0",
-		"yiisoft/yii2": "*"
+        "yiisoft/yii2": "*",
+        "npm-asset/justgage": "^1.2"
     },
     "autoload": {
         "psr-4": {
-            "simonmesmith\\justgage\\": ""
+            "sateler\\justgage\\": ""
         }
     }
 }

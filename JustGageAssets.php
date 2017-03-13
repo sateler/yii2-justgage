@@ -9,7 +9,7 @@
  * @version 
  */
 
-namespace simonmesmith\justgage;
+namespace sateler\justgage;
 
 use yii\web\AssetBundle;
 
@@ -18,9 +18,14 @@ use yii\web\AssetBundle;
  */
 class JustGageAssets extends AssetBundle
 {
-	
-	public $sourcePath = '@vendor/simonmesmith/yii2-justgage/assets';
-	public $depends = ['yii\web\JqueryAsset'];
-    public $js = ['raphael.2.1.0.min.js', 'justgage.1.0.1.min.js'];
+    public $sourcePath = '@npm/justgage';
 
+    public $js = [
+        'raphael-2.1.4.min.js',
+        'justgage.js',
+    ];
+
+    public $depends = [
+        'yii\web\JqueryAsset',
+    ];
 }
